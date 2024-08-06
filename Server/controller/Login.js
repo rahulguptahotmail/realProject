@@ -11,7 +11,7 @@ const Login = async (req, res) => {
     if (data.length === 1) {
      
       if (data[0].password === passwordBody) {
-        const token = jwt.sign({email:data[0].email, password:data[0].password},process.env.JWT_KEY)
+        const token = jwt.sign({email:data[0].email, password:data[0].password},"realProject")
         res.status(200).json({ token: token,UserName:data[0].firstName + " " + data[0].lastName});
       } else {
         res.status(400).send("Password incorrect");
