@@ -36,6 +36,4 @@ app.post("/codedelete/:index",CodeDelete);
 app.get("/codeUpdate/:index",CodeUpdate);
 app.get("/codeitemlength",CodeItemLength);
 
-app.listen(Port, () =>
-  console.log(`Server Running At PORT : http://localhost:${Port}/`)
-);
+app.listen(Port)
