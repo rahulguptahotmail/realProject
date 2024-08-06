@@ -14,7 +14,7 @@ const ItemUpdate = require("./controller/ItemUpdate");
 const {CodeItem,CodeDelete,CodeUpdate,CodeItemWithQuery, CodeItemLength, GetCodeItem} = require("./controller/CodingPage");
 
 const app = express();
-const Port = process.env.Port || 5000;
+const Port = process.env.PORT || 5000;
 
 // middlewares
 app.use(bodyParser.urlencoded({ extended: false }));
