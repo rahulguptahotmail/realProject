@@ -10,6 +10,6 @@
          add .env and .gitignore
 
          in .env -> Port = 5000
-                   #Mongo_URL = "mongodb+srv://rahulguptahotmail:UP56ac6331@cluster0.cgrfan7.mongodb.net/realProject"
+                   #Mongo_URL = "mongodb+srv://rahulguptahotmail:<Password>@cluster0.cgrfan7.mongodb.net/realProject"
                    #JWT_KEY = "realProject"
          in .ignore -> /node_modules
