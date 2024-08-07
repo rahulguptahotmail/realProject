@@ -5,7 +5,7 @@ const Items = (value) => {
 
   return (
     <div className="bg-success bg-opacity-50 p-3 rounded shadow">
-      <p className=" text-warning shadow" style={{fontSize: "10px"}}>{value.UserName}</p>
+      <p className=" text-warning shadow" style={{fontSize: "15px"}}> createdBy {value.UserName}</p>
       <h3 className=" text-primary">{value.title}</h3>
       <div>
         <h5>{value.topic}</h5>
