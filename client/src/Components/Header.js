@@ -166,7 +166,7 @@ const Header = () => {
                     onMouseOut={() => HeaderHandlerHide("toolsId")}
                   >
                     <i className="fa-solid fa-toolbox" />
-                    Public-Ideas
+                  Ideas
                     <i className="fa-solid fa-angle-down mx-1"></i>
                   </button>
                   <ul
