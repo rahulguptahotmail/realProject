@@ -22,7 +22,7 @@ const Update = () => {
   const getData = async () => {
     const res = await axios.get(`http://localhost:5000/item/get/${id}`);
     setItem(res.data);
-    setTitle(res[0].data.title)
+    setTitle(res.data.title)
     setTopic(res.data.topic)
     setDescription(res.data.description)
   };
