@@ -46,12 +46,12 @@ const Add = () => {
           Refresh
         </Link>
         <Link to={"/tools/items"} className="btn btn-success">
-          ITEMS
+          Ideas
         </Link>
       </div>
       <form>
         <div className=" w-75 m-auto bg-info p-4 rounded-5">
-          <h1 className="text-center">ADD</h1>
+          <h1 className="text-center">ADD Ideas</h1>
 
           <div className=" d-flex flex-column">
             <div className="w-100 d-flex my-3">
