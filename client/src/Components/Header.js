@@ -194,7 +194,7 @@ const Header = () => {
                       onMouseEnter={(e) => addClass(e)}
                       onMouseLeave={(e) => removeClass(e)}
                     >
-                      ITEMS
+                      Ideas
                     </Link>
                   </ul>
                 </li>
