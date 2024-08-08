@@ -59,7 +59,7 @@ const Login = () => {
       } catch (err) {
         console.log(err);
         if (err.response.data === "Email Not found")
-          validationErr("emailHelp", "** Email Not found **");
+          validationErr("emailHelp", "** Email Not Registered Please Register **");
         if (err.response.data === "Password incorrect")
           validationErr("passwordHelp", "** Password incorrect **");
       }
