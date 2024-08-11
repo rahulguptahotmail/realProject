@@ -79,6 +79,7 @@ const Login = () => {
       }}
     >
       <h2 className="text-center py-3 fw-bold">LOGIN</h2>
+  <h4 className="text-center py-2">First Register Then Login</h4>
       <div className="mb-3">
         <label
           htmlFor="exampleInputEmail1"
@@ -160,15 +161,6 @@ const Login = () => {
         <Link to={"/register"} className="btn btn-success my-3">
           Register
         </Link>
-        <input
-          type="button"
-          value={"Reset"}
-          className="btn btn-danger my-3"
-          onClick={() => {
-            setEmail("");
-            setPassword("");
-          }}
-        />
       </div>
     </form>
   );
