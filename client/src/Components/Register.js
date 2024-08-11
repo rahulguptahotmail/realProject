@@ -92,6 +92,7 @@ const Register = () => {
       }}
     >
       <h2 className="text-center py-3 fw-bold">REGISTER</h2>
+  <h4 className="text-center py-2">Already Register Then Login</h4>
 
       <div className="d-flex justify-content-evenly gap-5 flex-lg-row flex-column">
         <div className="mb-3 w-100 ">
@@ -264,18 +265,6 @@ const Register = () => {
         <Link to={"/login"} className="btn btn-success my-3">
           Login
         </Link>
-        <input
-          type="button"
-          value={"Reset"}
-          className="btn btn-danger my-3"
-          onClick={() => {
-            setFirstName("");
-            setLastName("");
-            setPhone("");
-            setEmail("");
-            setPassword("");
-          }}
-        />
       </div>
     </form>
   );
