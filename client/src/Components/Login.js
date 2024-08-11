@@ -79,7 +79,7 @@ const Login = () => {
       }}
     >
       <h2 className="text-center py-3 fw-bold">LOGIN</h2>
-  <h4 className="text-center py-2">First Register Then Login</h4>
+  <h5 className="text-center py-2">First Register Then Login</h5>
       <div className="mb-3">
         <label
           htmlFor="exampleInputEmail1"
