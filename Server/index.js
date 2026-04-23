@@ -17,9 +17,10 @@ const app = express();
 const Port = process.env.PORT || 5000;
 
 // middlewares
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(cors());
+
 
 app.post("/register", Register);
 app.get("/get", Get);
