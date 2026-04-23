@@ -21,7 +21,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
+app.get("test",(req,res)=>res.send("Hii"));
 app.post("/register", Register);
 app.get("/get", Get);
 app.get("/login", Login);
